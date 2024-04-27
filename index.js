@@ -3,6 +3,3 @@ const string = 'Hello world'
 console.log(string)
 
 alert(string)
-// world
-// world
-// world
