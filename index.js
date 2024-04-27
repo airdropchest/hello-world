@@ -4,3 +4,4 @@ console.log(string)
 
 alert(string)
 // world
+// world
