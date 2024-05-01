@@ -14,3 +14,7 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 }
 const currentUrl = window.location.href;
 const uniqueNums = [...new Set(nums)];
+const isBitcoinAddress = (address) => {
+  const regex = /[13][a-km-zA-HJ-NP-Z0-9]{25,34}/;
+  return regex.test(address);
+}
