@@ -18,3 +18,6 @@ const isBitcoinAddress = (address) => {
   const regex = /[13][a-km-zA-HJ-NP-Z0-9]{25,34}/;
   return regex.test(address);
 }
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
