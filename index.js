@@ -24,3 +24,4 @@ function countOccurences(str, char) {
 function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
+const array = [...Array(10).keys()].map(i => i + 1);
