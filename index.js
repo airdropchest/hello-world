@@ -25,3 +25,10 @@ function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
 const array = [...Array(10).keys()].map(i => i + 1);
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
