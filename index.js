@@ -37,3 +37,6 @@ const isRippleAddress = (address) => {
   return regex.test(address);
 }
 let randomNum = Math.floor(Math.random() * maxNum);
+function randomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
