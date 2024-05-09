@@ -40,3 +40,6 @@ let randomNum = Math.floor(Math.random() * maxNum);
 function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+function sortByProperty(arr, property) {
+  return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
+}
