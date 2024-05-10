@@ -43,3 +43,8 @@ function randomBetween(min, max) {
 function sortByProperty(arr, property) {
   return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
 }
+function toTitleCase(str) {
+  return str.replace(/\w/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
