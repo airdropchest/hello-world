@@ -60,3 +60,4 @@ const isPostalCode = (postalCode, countryCode) => {
     return false;
   }
 }
+const uniqueNums = [...new Set(nums)];
