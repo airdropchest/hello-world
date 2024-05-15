@@ -61,3 +61,6 @@ const isPostalCode = (postalCode, countryCode) => {
   }
 }
 const uniqueNums = [...new Set(nums)];
+if (localStorage.getItem('username')) {
+    console.log('Item exists!');
+}
