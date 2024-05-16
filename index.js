@@ -64,3 +64,6 @@ const uniqueNums = [...new Set(nums)];
 if (localStorage.getItem('username')) {
     console.log('Item exists!');
 }
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
