@@ -75,3 +75,4 @@ const randomString = (length) => {
   }
   return result;
 };
+let isValueInArray = arr.includes(value);
