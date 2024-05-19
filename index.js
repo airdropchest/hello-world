@@ -76,3 +76,8 @@ const randomString = (length) => {
   return result;
 };
 let isValueInArray = arr.includes(value);
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
