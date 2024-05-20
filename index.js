@@ -81,3 +81,4 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+const array = [...Array(10).keys()].map(i => i + 1);
