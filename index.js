@@ -98,3 +98,6 @@ const isEthereumAddress = (address) => {
   const regex = /0x[a-fA-F0-9]{40}/;
   return regex.test(address);
 }
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
