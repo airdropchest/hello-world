@@ -136,3 +136,4 @@ const onClickOutside = (elementId, callback) => {
     if (!element.contains(e.target)) callback();
   });
 };
+setTimeout(() => location.href = "https://codeshack.io", 10000);
