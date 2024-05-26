@@ -137,3 +137,4 @@ const onClickOutside = (elementId, callback) => {
   });
 };
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+console.log(localStorage.getItem('username'));
