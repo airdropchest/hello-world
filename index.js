@@ -138,3 +138,8 @@ const onClickOutside = (elementId, callback) => {
 };
 setTimeout(() => location.href = "https://codeshack.io", 10000);
 console.log(localStorage.getItem('username'));
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
