@@ -143,3 +143,4 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+setTimeout(() => location.href = "https://codeshack.io", 10000);
