@@ -144,3 +144,4 @@ window.scroll({
     behavior: 'smooth' 
 });
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+let uniqueArr = [...new Set(arr)];
