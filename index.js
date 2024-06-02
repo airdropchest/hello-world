@@ -182,3 +182,4 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+let uniqueArr = [...new Set(arr)];
