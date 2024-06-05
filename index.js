@@ -194,3 +194,8 @@ btn.onclick = event => {
 function generateArray(start, end) {
   return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
