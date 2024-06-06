@@ -199,3 +199,14 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+class Orange extends Fruit {
+
+    constructor() {
+        super('Orange', 'Orange');
+    }
+
+    throw() {
+        console.log('You threw the ' + this.name + '.');
+    }
+
+}
