@@ -211,3 +211,7 @@ class Orange extends Fruit {
 
 }
 console.log(localStorage.getItem('username'));
+const element = document.querySelector('#element');
+if (element.offsetParent === null) {
+    console.log('Element is hidden');
+}
