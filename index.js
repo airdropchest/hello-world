@@ -210,3 +210,4 @@ class Orange extends Fruit {
     }
 
 }
+console.log(localStorage.getItem('username'));
