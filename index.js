@@ -226,3 +226,6 @@ function countdownTimer(minutes) {
     }
   }, 1000);
 }
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
