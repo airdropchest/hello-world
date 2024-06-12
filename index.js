@@ -240,3 +240,7 @@ btn.onclick = event => {
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
+const element = document.querySelector('#element');
+if (element.offsetParent === null) {
+    console.log('Element is hidden');
+}
