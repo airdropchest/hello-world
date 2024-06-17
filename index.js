@@ -262,3 +262,10 @@ if (element.offsetParent === null) {
     console.log('Element is hidden');
 }
 let isValueInArray = arr.includes(value);
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
