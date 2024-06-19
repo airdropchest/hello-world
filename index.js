@@ -276,3 +276,6 @@ const debounce = (fn, time) => {
     timeout = setTimeout(() => fn.apply(this, args), time);
   };
 };
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
