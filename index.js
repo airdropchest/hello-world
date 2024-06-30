@@ -318,3 +318,4 @@ const onScrollStop = callback => {
     false
   );
 };
+const uniqueNums = [...new Set(nums)];
