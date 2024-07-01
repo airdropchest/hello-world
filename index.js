@@ -319,3 +319,4 @@ const onScrollStop = callback => {
   );
 };
 const uniqueNums = [...new Set(nums)];
+let reversedStr = str.split("").reverse().join("");
