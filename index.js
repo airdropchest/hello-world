@@ -320,3 +320,7 @@ const onScrollStop = callback => {
 };
 const uniqueNums = [...new Set(nums)];
 let reversedStr = str.split("").reverse().join("");
+const httpsRedirect = () => {
+  if (location.protocol !== 'https:')
+    location.replace('https://' + location.href.split('//')[1]);
+};
