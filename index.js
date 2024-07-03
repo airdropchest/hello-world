@@ -346,3 +346,6 @@ fetch('https://example.com/authenticate', {
 }).catch(error => {
     console.error('Error:', error);
 });
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
