@@ -349,3 +349,6 @@ fetch('https://example.com/authenticate', {
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+if (localStorage.getItem('username')) {
+    console.log('Item exists!');
+}
