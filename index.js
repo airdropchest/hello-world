@@ -352,3 +352,8 @@ function isEmptyObject(obj) {
 if (localStorage.getItem('username')) {
     console.log('Item exists!');
 }
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
