@@ -357,3 +357,6 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
