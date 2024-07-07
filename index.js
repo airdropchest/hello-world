@@ -360,3 +360,6 @@ window.scroll({
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
