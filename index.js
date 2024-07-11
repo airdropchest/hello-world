@@ -384,3 +384,4 @@ const onClickOutside = (elementId, callback) => {
   });
 };
 let reversedStr = str.split("").reverse().join("");
+const array = [...Array(10).keys()].map(i => i + 1);
