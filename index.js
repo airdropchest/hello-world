@@ -385,3 +385,11 @@ const onClickOutside = (elementId, callback) => {
 };
 let reversedStr = str.split("").reverse().join("");
 const array = [...Array(10).keys()].map(i => i + 1);
+const randomString = (length) => {
+  let result = "";
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+};
