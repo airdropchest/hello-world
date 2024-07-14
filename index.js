@@ -428,3 +428,6 @@ const onClickOutside = (elementId, callback) => {
     if (!element.contains(e.target)) callback();
   });
 };
+function capitalizeWords(str) {
+  return str.replace(/\w/g, function(l){ return l.toUpperCase() });
+}
