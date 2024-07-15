@@ -441,3 +441,6 @@ const isRGBColor = (rgb) => {
 let newArr = oldArr.map(function(item) {
   return item + 1;
 });
+const openTab = (url) => {
+  window.open(url, "_blank");
+};
