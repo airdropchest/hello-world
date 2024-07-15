@@ -431,3 +431,6 @@ const onClickOutside = (elementId, callback) => {
 function capitalizeWords(str) {
   return str.replace(/\w/g, function(l){ return l.toUpperCase() });
 }
+function sortByProperty(arr, property) {
+  return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
+}
