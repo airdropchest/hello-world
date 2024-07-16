@@ -473,3 +473,6 @@ const onScrollStop = callback => {
     false
   );
 };
+if (localStorage.getItem('username')) {
+    console.log('Item exists!');
+}
