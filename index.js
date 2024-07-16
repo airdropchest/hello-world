@@ -444,3 +444,8 @@ let newArr = oldArr.map(function(item) {
 const openTab = (url) => {
   window.open(url, "_blank");
 };
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
