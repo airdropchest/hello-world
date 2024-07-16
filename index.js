@@ -478,3 +478,14 @@ if (localStorage.getItem('username')) {
 }
 let reversedStr = str.split("").reverse().join("");
 console.log(localStorage.getItem('username'));
+class Orange extends Fruit {
+
+    constructor() {
+        super('Orange', 'Orange');
+    }
+
+    throw() {
+        console.log('You threw the ' + this.name + '.');
+    }
+
+}
