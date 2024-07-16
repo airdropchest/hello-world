@@ -476,3 +476,4 @@ const onScrollStop = callback => {
 if (localStorage.getItem('username')) {
     console.log('Item exists!');
 }
+let reversedStr = str.split("").reverse().join("");
