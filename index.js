@@ -497,3 +497,8 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+el.addEventListener('keyup', e => {
+  msg.style = e.getModifierState('CapsLock')
+    ? 'display: block'
+    : 'display: none';
+});
