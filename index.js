@@ -502,3 +502,6 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
