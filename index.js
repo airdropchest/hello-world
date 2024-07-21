@@ -505,3 +505,10 @@ el.addEventListener('keyup', e => {
 function truncateString(str, num) {
   return str.length > num ? str.slice(0, num) + "..." : str;
 }
+const debounce = (fn, time) => {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn.apply(this, args), time);
+  };
+};
