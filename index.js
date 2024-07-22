@@ -512,3 +512,6 @@ const debounce = (fn, time) => {
     timeout = setTimeout(() => fn.apply(this, args), time);
   };
 };
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
