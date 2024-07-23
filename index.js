@@ -515,3 +515,16 @@ const debounce = (fn, time) => {
 function truncateString(str, num) {
   return str.length > num ? str.slice(0, num) + "..." : str;
 }
+const onScrollStop = callback => {
+  let isScrolling;
+  window.addEventListener(
+    'scroll',
+    e => {
+      clearTimeout(isScrolling);
+      isScrolling = setTimeout(() => {
+        callback();
+      }, 150);
+    },
+    false
+  );
+};
