@@ -534,3 +534,6 @@ function truncateString(str, num) {
 let newArr = oldArr.map(function(item) {
   return item + 1;
 });
+function generateArray(start, end) {
+  return Array(end - start + 1).fill().map((_, idx) => start + idx)
+}
