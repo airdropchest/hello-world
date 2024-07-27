@@ -537,3 +537,6 @@ let newArr = oldArr.map(function(item) {
 function generateArray(start, end) {
   return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
+function randomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
