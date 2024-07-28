@@ -540,3 +540,6 @@ function generateArray(start, end) {
 function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
