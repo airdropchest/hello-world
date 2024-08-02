@@ -570,3 +570,4 @@ fetch('https://example.com/authenticate', {
 }).catch(error => {
     console.error('Error:', error);
 });
+let uniqueArr = [...new Set(arr)];
