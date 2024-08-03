@@ -571,3 +571,4 @@ fetch('https://example.com/authenticate', {
     console.error('Error:', error);
 });
 let uniqueArr = [...new Set(arr)];
+const currentUrl = window.location.href;
