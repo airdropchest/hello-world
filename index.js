@@ -572,3 +572,7 @@ fetch('https://example.com/authenticate', {
 });
 let uniqueArr = [...new Set(arr)];
 const currentUrl = window.location.href;
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
