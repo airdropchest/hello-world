@@ -577,3 +577,6 @@ const isRippleAddress = (address) => {
   return regex.test(address);
 }
 let reversedStr = str.split("").reverse().join("");
+function capitalizeWords(str) {
+  return str.replace(/\w/g, function(l){ return l.toUpperCase() });
+}
