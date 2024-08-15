@@ -622,3 +622,6 @@ btn.onclick = event => {
     console.log(btn.dataset.surname); // Adams
     console.log(btn.dataset.uniqueId); // 30
 };
+function generateArray(start, end) {
+  return Array(end - start + 1).fill().map((_, idx) => start + idx)
+}
