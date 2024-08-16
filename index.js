@@ -625,3 +625,6 @@ btn.onclick = event => {
 function generateArray(start, end) {
   return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
