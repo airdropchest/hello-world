@@ -628,3 +628,4 @@ function generateArray(start, end) {
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
+const array = [...Array(10).keys()].map(i => i + 1);
