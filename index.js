@@ -629,3 +629,8 @@ function reverseString(str) {
   return str.split("").reverse().join("");
 }
 const array = [...Array(10).keys()].map(i => i + 1);
+el.addEventListener('keyup', e => {
+  msg.style = e.getModifierState('CapsLock')
+    ? 'display: block'
+    : 'display: none';
+});
