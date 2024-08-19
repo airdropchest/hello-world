@@ -634,3 +634,4 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+let randomNum = Math.floor(Math.random() * maxNum);
