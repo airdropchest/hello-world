@@ -635,3 +635,4 @@ el.addEventListener('keyup', e => {
     : 'display: none';
 });
 let randomNum = Math.floor(Math.random() * maxNum);
+let fruit = fruits[Math.floor(Math.random()*fruits.length)];
