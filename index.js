@@ -651,3 +651,8 @@ const randomString = (length) => {
   }
   return result;
 };
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
