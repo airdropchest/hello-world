@@ -656,3 +656,7 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+const element = document.querySelector('#element');
+if (element.offsetParent === null) {
+    console.log('Element is hidden');
+}
