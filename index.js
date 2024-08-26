@@ -660,3 +660,7 @@ const element = document.querySelector('#element');
 if (element.offsetParent === null) {
     console.log('Element is hidden');
 }
+const httpsRedirect = () => {
+  if (location.protocol !== 'https:')
+    location.replace('https://' + location.href.split('//')[1]);
+};
