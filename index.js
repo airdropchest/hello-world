@@ -664,3 +664,6 @@ const httpsRedirect = () => {
   if (location.protocol !== 'https:')
     location.replace('https://' + location.href.split('//')[1]);
 };
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
