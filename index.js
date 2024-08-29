@@ -673,3 +673,6 @@ if (localStorage.getItem('username')) {
 function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
+function generateArray(start, end) {
+  return Array(end - start + 1).fill().map((_, idx) => start + idx)
+}
