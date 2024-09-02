@@ -704,3 +704,8 @@ const onClickOutside = (elementId, callback) => {
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+function toTitleCase(str) {
+  return str.replace(/\w/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
