@@ -712,3 +712,6 @@ function toTitleCase(str) {
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+function sortByProperty(arr, property) {
+  return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
+}
