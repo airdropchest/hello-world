@@ -735,3 +735,7 @@ const isPostalCode = (postalCode, countryCode) => {
     return false;
   }
 }
+const element = document.querySelector('#element');
+if (element.offsetParent === null) {
+    console.log('Element is hidden');
+}
