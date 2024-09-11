@@ -739,3 +739,7 @@ const element = document.querySelector('#element');
 if (element.offsetParent === null) {
     console.log('Element is hidden');
 }
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
