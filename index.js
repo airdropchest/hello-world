@@ -751,3 +751,6 @@ const isRippleAddress = (address) => {
   const regex = /r[0-9a-zA-Z]{33}/;
   return regex.test(address);
 }
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
