@@ -757,3 +757,6 @@ function truncateString(str, num) {
 function capitalizeWords(str) {
   return str.replace(/\w/g, function(l){ return l.toUpperCase() });
 }
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
