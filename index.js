@@ -760,3 +760,4 @@ function capitalizeWords(str) {
 let newArr = oldArr.map(function(item) {
   return item + 1;
 });
+let uniqueArr = [...new Set(arr)];
