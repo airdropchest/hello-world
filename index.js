@@ -761,3 +761,6 @@ let newArr = oldArr.map(function(item) {
   return item + 1;
 });
 let uniqueArr = [...new Set(arr)];
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
