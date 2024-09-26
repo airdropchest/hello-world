@@ -769,3 +769,4 @@ const isEthereumAddress = (address) => {
   return regex.test(address);
 }
 let randomNum = Math.floor(Math.random() * maxNum);
+const currentUrl = window.location.href;
