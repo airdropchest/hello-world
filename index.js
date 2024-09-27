@@ -770,3 +770,6 @@ const isEthereumAddress = (address) => {
 }
 let randomNum = Math.floor(Math.random() * maxNum);
 const currentUrl = window.location.href;
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
