@@ -778,3 +778,6 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+function sortByProperty(arr, property) {
+  return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
+}
