@@ -781,3 +781,14 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 function sortByProperty(arr, property) {
   return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
 }
+function countdownTimer(minutes) {
+  let seconds = minutes * 60;
+  const countdown = setInterval(function() {
+    seconds--;
+    if (seconds < 0) {
+      clearInterval(countdown);
+    } else {
+      console.log(seconds + " seconds left");
+    }
+  }, 1000);
+}
