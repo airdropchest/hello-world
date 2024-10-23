@@ -810,3 +810,8 @@ btn.onclick = event => {
     console.log(btn.dataset.surname); // Adams
     console.log(btn.dataset.uniqueId); // 30
 };
+el.addEventListener('keyup', e => {
+  msg.style = e.getModifierState('CapsLock')
+    ? 'display: block'
+    : 'display: none';
+});
