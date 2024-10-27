@@ -815,3 +815,6 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
