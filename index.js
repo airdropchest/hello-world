@@ -822,3 +822,8 @@ const isEthereumAddress = (address) => {
   const regex = /0x[a-fA-F0-9]{40}/;
   return regex.test(address);
 }
+if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
+    console.log('Email is valid!');
+} else {
+    console.log('Email is invalid!');
+}
