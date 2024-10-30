@@ -827,3 +827,6 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+if (localStorage.getItem('username')) {
+    console.log('Item exists!');
+}
