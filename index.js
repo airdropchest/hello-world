@@ -830,3 +830,7 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 if (localStorage.getItem('username')) {
     console.log('Item exists!');
 }
+const isEthereumAddress = (address) => {
+  const regex = /0x[a-fA-F0-9]{40}/;
+  return regex.test(address);
+}
