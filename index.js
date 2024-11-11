@@ -835,3 +835,6 @@ const isEthereumAddress = (address) => {
   return regex.test(address);
 }
 console.log(localStorage.getItem('username'));
+function randomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
