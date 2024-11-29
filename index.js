@@ -841,3 +841,4 @@ function randomBetween(min, max) {
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
+let randomNum = Math.floor(Math.random() * maxNum);
