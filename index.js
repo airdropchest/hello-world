@@ -842,3 +842,10 @@ function reverseString(str) {
   return str.split("").reverse().join("");
 }
 let randomNum = Math.floor(Math.random() * maxNum);
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
